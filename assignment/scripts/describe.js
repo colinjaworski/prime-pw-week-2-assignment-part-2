@@ -134,6 +134,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne is set to red and colorTwo is set to blue but in the discription they are it is the opposite.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -151,6 +152,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - '||' means 'or' not 'and', it should still console.log('throw away the food') but to match with the discription, it should read if (temp > 39 && time >= 4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -162,8 +164,10 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+FIX - the discription says we start out with two variables which are minAge and age, however minAge is a const, which means its not a variable but rather a signal that the identifier won't be reassigned
 const minAge = 21;
 
+//FIX - the discription does not match up with code, it should be expressed if(minAge >= age) { >greater than, <lessthan
 if(minAge <= age) {
   console.log('no entry');
 } else {
