@@ -141,6 +141,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+// FIX - in the discription it says to set colorOne and colorTwo to purple, however the code just sets colorOne to purple
 }
 */
 
@@ -164,7 +165,7 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
-FIX - the discription says we start out with two variables which are minAge and age, however minAge is a const, which means its not a variable but rather a signal that the identifier won't be reassigned
+FIX - Thank you for explaining what the const VARIABLE is used for. 
 const minAge = 21;
 
 //FIX - the discription does not match up with code, it should be expressed if(minAge >= age) { >greater than, <lessthan
